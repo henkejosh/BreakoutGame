@@ -8,24 +8,33 @@
     <link rel="stylesheet" href="assets/instructions.css" type="text/css">
   </head>
   <body>
-    <canvas id="backgroundCanvas" width="900" height="520"></canvas>
-    <canvas id="breakoutCanvas" width="900" height="520"></canvas>
+    <div class="all-content">
 
-    <div id="instructionsModal" class="instructions-modal">
-      <h1 id="ModalHeader">PAUSED</h1>
-      <p>Press [enter] to resume playing</p>
-      <h3>OBJECTIVE</h3>
-      <p>Destroy all the bricks to get to the next level!</p>
-      <h3>INSTRUCTIONS</h3>
-      <ul>
-        <li>Paddle Left: <-- </li>
-        <li>Paddle Right: --> </li>
-        <li>Start Ball: [space] </li>
-        <li>Pause: [enter] </li>
-      </ul>
+      <div class="content-region">
+        <h1>Welcome to Breakout!</h1>
 
-      <span id="newGame" class="new-game-button">Start New Game</span>
+        <canvas id="backgroundCanvas" width="900" height="520"></canvas>
+        <canvas id="breakoutCanvas" width="900" height="520"></canvas>
+
+        <div id="instructionsModal" class="instructions-modal">
+          <h1 id="ModalHeader">PAUSED</h1>
+          <p>Press [enter] to resume playing</p>
+          <h3>OBJECTIVE</h3>
+          <p>Destroy all the bricks to get to the next level!</p>
+          <h3>INSTRUCTIONS</h3>
+          <ul>
+            <li>Paddle Left: <-- </li>
+            <li>Paddle Right: --> </li>
+            <li>Start Ball: [space] </li>
+            <li>Pause: [enter] </li>
+          </ul>
+
+          <span id="newGame" class="new-game-button">Start New Game</span>
+        </div>
+
+        <p>Press [enter] to pause the game and see instructions.</p>
+      </div>
+
     </div>
-
   </body>
 </html>

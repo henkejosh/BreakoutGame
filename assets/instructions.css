@@ -2,9 +2,9 @@ div.instructions-modal {
   display: none;
   color: black;
   position: fixed;
-  top: 22px;
-  left: 25px;
-  padding: 0px 50px;
+  top: 125px;
+  left: calc(7% + 16px);
+  padding: 0px;
   color: #426fc7;
   font-family: monospace;
 
@@ -58,7 +58,7 @@ span.new-game-button {
   text-align: center;
   font-weight: bold;
   display: block;
-  font-size: 1.17em;
+  font-size: 1.5em;
   margin: 10px 30%;
   border-radius: 3px;
   padding: 10px;
@@ -76,4 +76,27 @@ canvas#backgroundCanvas {
 
 canvas#breakoutCanvas {
   position: relative;
+}
+
+div.content-region {
+  padding: 15px 7%;
+  /*background-color: #e1f0dd;*/
+  height: 550px;
+  width: 900px;
+}
+
+div.content-region > h1 {
+  font-family: monospace;
+  font-size: 3em;
+  text-align: center;
+}
+
+div.all-content {
+  background-color: #e1f0dd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
 }
