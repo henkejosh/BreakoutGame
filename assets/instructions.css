@@ -2,11 +2,16 @@ div.instructions-modal {
   display: none;
   color: black;
   position: fixed;
-  top: 25px;
+  top: 22px;
   left: 25px;
   padding: 0px 50px;
+  color: #426fc7;
 
-  background-color: #fefefe;
+  /*background-color: #fefefe;*/
+  /*background-color: #f5efb7;*/
+  /*background-color: #c8efb7;*/
+  /*background-color: #ebd5ab;*/
+  background-color: #fdf3d7;
   opacity: 0.9;
   margin: auto;
   padding: 0;
@@ -42,7 +47,8 @@ div.instructions-modal h1, h3, ul, li, p {
 span.new-game-button:hover {
   cursor: pointer;
   /*font-weight: bold;*/
-  background: grey;
+  background: #99493c;
+  opacity: 1;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
