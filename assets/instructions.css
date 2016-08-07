@@ -1,0 +1,40 @@
+div.instructions-modal {
+  display: none;
+  color: black;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  padding: 0px 50px;
+
+  background-color: #fefefe;
+  opacity: 0.8;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 650px;
+  height: 470px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+div.instructions-modal > h1 {
+  text-align: center;
+}
+
+div.instructions-modal h1, h3, ul, li, p {
+  opacity: 1;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
