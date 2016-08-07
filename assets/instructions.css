@@ -8,12 +8,8 @@ div.instructions-modal {
   color: #426fc7;
   font-family: monospace;
 
-  /*background-color: #fefefe;*/
-  /*background-color: #f5efb7;*/
-  /*background-color: #c8efb7;*/
-  /*background-color: #ebd5ab;*/
   background-color: #fdf3d7;
-  opacity: 0.9;
+  opacity: 0.95;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -42,7 +38,7 @@ div.instructions-modal h1, h3, ul, li, p {
 
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1}
+    to {top: 125px; opacity: 1}
 }
 
 span.new-game-button:hover {
@@ -80,7 +76,6 @@ canvas#breakoutCanvas {
 
 div.content-region {
   padding: 15px 7%;
-  /*background-color: #e1f0dd;*/
   height: 550px;
   width: 900px;
 }
