@@ -1,6 +1,3 @@
-// const Ball = require('./lib/ball.js');
-// const Paddle = require('./lib/paddle.js');
-// const Brick = require('./lib/brick.js');
 const Game = require('./lib/game.js');
 
 
@@ -17,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
   // game.ball = ball;
   // game.paddle = paddle;
   // game.makeBricks(8);
-  game.paddle.draw();
+  // game.paddle.draw();
 
-  document.addEventListener("keydown", game.paddle.updateMoveState.bind(game.paddle) );
-  document.addEventListener("keyup", game.paddle.resetMoveState.bind(game.paddle) );
+  // document.addEventListener("keydown", game.paddle.updateMoveState.bind(game.paddle) );
+  // document.addEventListener("keyup", game.paddle.resetMoveState.bind(game.paddle) );
 
   setInterval(game.draw.bind(game), 10);
 
