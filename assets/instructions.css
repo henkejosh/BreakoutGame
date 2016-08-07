@@ -41,7 +41,16 @@ div.instructions-modal h1, h3, ul, li, p {
 
 span.new-game-button:hover {
   cursor: pointer;
-  font-weight: bold;
+  /*font-weight: bold;*/
   background: grey;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+span.new-game-button {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  font-size: 1.17em;
+  margin: 10px 30%;
+  border-radius: 3px;
 }
