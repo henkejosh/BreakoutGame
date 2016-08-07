@@ -7,7 +7,7 @@ div.instructions-modal {
   padding: 0px 50px;
 
   background-color: #fefefe;
-  opacity: 0.8;
+  opacity: 0.9;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -37,4 +37,11 @@ div.instructions-modal h1, h3, ul, li, p {
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
+}
+
+span.new-game-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background: grey;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
