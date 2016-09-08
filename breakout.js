@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.addEventListener("keydown", game.handleKeyStroke.bind(game));
 
-  game.paddle.draw();
+  // game.paddle.draw();
+  game.drawBackgroundImage();
   setInterval(game.draw.bind(game), 10);
 });
